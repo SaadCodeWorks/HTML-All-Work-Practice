@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f2f4f7;
+}
+
+.leftBox {
+    width: 600px;
+}
+
+.leftbox img {
+    width: 300px;
+}
+
+.leftbox p {
+    font-size: 28px;
+    font-family:Arial;
+}
+
+.rightbox {
+    width: 400px;
+    /* height: 400px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.inputemail,
+.inputpassword {
+    margin-bottom: 10px;
+    height: 50px;
+    border-radius: 9px;
+}
+
+.inputemail input,
+.inputpassword input {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+
+.inputemail input:focus,
+.inputpassword input:focus {
+    outline: none;
+    border: 1px solid #0866ff;
+    border-radius: 9px;
+}
+
+.logbutton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+
+}
+
+.logbutton button {
+    height: 100%;
+    width: 100%;
+    background-color: #0247ae;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.rightBox a {
+    /* text-decoration: none; */
+    color: #0867ffdf;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rightBox a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 25px;
+}
+
+.accountbutton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
+}
+
+.accountbutton button {
+    height: 100%;
+    width: 60%;
+    background-color:darkblue;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0% 20%;
+}
+
+.inputpassword {
+    position: relative;
+}
+
+.inputpassword i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
